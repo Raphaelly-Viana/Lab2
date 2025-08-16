@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="form.html">Form</a>
+        </nav>
+    <form method="POST" action="http://localhost:3000/profile">
+</form>
+<div style="
+    margin: 20px;
+    color: blue;
+    font-size: 16px;
+">
+    <h2>Form Submission</h2>
+    <p>Please fill out the form below:</p>
+    <div>
+    <input type="text" name="firstname" placeholder="Enter your first name">
+    </div>
+    <div>
+    <input type="text" name="lastname" placeholder="Enter your last name">
+ </div>
+
+
+ <div>
+    <label for="html">HTML</label>
+    <input type="radio" name="code" id="html" value="html">
+    <label for="css">CSS</label>
+    <input type="radio" name="code" id="css" value="css">
+    <label for="javascript">JavaScript</label>
+    <input type="radio" name="code" id="javascript" value="javascript">
+</div>
+
+    <div>
+        <label for="cartype1">Car type 1</label>
+        <input type="checkbox" name="cartype1" id="cartype1">
+        <label for="cartype2">Car type 2</label>
+        <input type="checkbox" name="cartype2" id="cartype2">
+        <label for="cartype3">Car type 3</label>
+        <input type="checkbox" name="cartype3" id="cartype3">
+    </div>
+    <div>
+        <select name="carbrand" id="carbrand">
+            <option value="mercedes">Mercedes</option>
+            <option value="ferrari">Ferrari</option>
+            <option value="tesla">Tesla</option>
+        </select>
+    </div>
+
+    <button type="submit">Submit form</button>
+</body>
+</html>
